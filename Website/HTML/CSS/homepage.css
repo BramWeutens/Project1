@@ -13,7 +13,7 @@
     body {
     margin: 0; padding: 2rem 1rem;
     background: var(--bg); color: var(--ink);
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 .naam{
@@ -39,6 +39,15 @@
 
 .navigatie li {
     float: none;
+}
+
+.navigatie a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  color: #2f5bea;
 }
 
 li {
