@@ -33,7 +33,7 @@ a:hover{
   color: #2f5bea;
 }
 
-li {
+.list {
     float: right;
     padding: 14px 16px;
     text-align: center;

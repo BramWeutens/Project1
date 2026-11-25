@@ -1,7 +1,7 @@
 body{
     margin: 0; padding: 2rem 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+    background-color: #0C1012;
     color: #fff;
 }
 
@@ -40,7 +40,7 @@ a:hover{
   color: #2f5bea;
 }
 
-li {
+.navigatie li {
     float: right;
     padding: 14px 16px;
     text-align: center;
@@ -50,7 +50,7 @@ li {
 .main{
     margin: 0 auto;
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 150px;
     color: #fff;
 }
 
@@ -58,12 +58,109 @@ li {
     padding: 16px 0;
 }
 
-main li{
+
+
+.main summary{
+    list-style: none;
+}
+
+.main summary:hover{
+    color: #2f5bea;
+
+}
+.main details[open] summary{
+    color: #2f5bea;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+
+
+.main ul{
+    font-weight: bold;
+}
+
+.main li{
     margin: 0;
+    margin-bottom: 5px;
     list-style: none;
     text-align: left;
 }
 
 .title{
     font-size: 2em;
+}
+
+.grid-skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.grid-skills li{
+    margin: 20px;
+}
+
+.Illustrator{
+    color: #FF9A00;
+}
+.Illustrator span{
+    color: white;
+}
+
+.Photoshop{
+    color: 	#31A8FF ;
+}
+.Photoshop span{
+    color: white;
+}
+
+.Zbrush{
+    color: #ffb200;
+}
+.Zbrush span{
+    color: white;
+}
+
+.DS{
+    color: #39A5CC;
+}
+.DS span{
+    color: white;
+}
+
+.Html{
+    color: #ff5c00;
+}
+.Html span{
+    color: white;
+}
+
+.Css{
+    color: #9D00FF;
+}
+.Css span{
+    color: white;
+}
+
+.Javascript{
+    color: #f7df1e;
+}
+.Javascript span{
+    color: white;
+}
+
+.C{
+    color: #9179e4;
+}
+.C span{
+    color: white;
+}
+
+.SQL{
+    color: #0f80cc;
+}
+.SQL span{
+    color: white;
 }
